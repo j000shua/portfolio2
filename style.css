@@ -29,18 +29,27 @@ a{
     height: 10vh;
 }
 
+.row-left{
+    padding-left: 2rem;
+}
+.row-right{
+    
+}
+
 .list{
     list-style: none;
     display: flex;
 }
 
 .item{
-    padding-right: 5rem;
+   padding-right: 5rem;
     
 }
 
-.titre{
-    padding-left: 2rem;
+
+header a:hover{
+    border-bottom: #fff solid 3px;
+    
 }
 
 /*****************************************************************************/
@@ -94,9 +103,24 @@ a{
     margin: 60px;
     max-width: 100%;
     max-height: 100%;
+    transition: 0.3s;
+}
+
+.proj:hover{
+    border: rgb(255, 255, 255) solid 5px;
     
 }
 
+.proj img{
+    height: 90%;
+    width: 90%;
+    filter: grayscale(100%);
+    transition: 0.6s;
+}
+
+.proj img:hover{
+    filter: grayscale(0%);   
+}
 
 .info{
     display: flex;
@@ -117,3 +141,5 @@ a{
     text-align: left;
     margin-right: 50px;
 }
+
+
