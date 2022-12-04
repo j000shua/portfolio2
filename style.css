@@ -3,12 +3,19 @@
     src: url("font/MonsterFriendFore.otf") format('truetype');
 }
 
+@font-face {
+    font-family: 'cmdFont';
+    src: url("font/windows_command_prompt.woff");
+}
+
+
 body{
     background-color: black;
     color: white;
     margin: 0;
     padding: 0;
-    font-family:'MonsterFriend';
+    font-family: 'cmdFont';
+    font-size: x-large;
 }
 
 a{
@@ -118,6 +125,10 @@ header a:hover{
     filter: grayscale(0%)
 }
 
+.tab a{
+    border: #fff solid;
+    padding: 1rem;
+}
 
 .info{
     display: flex;
