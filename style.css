@@ -119,6 +119,7 @@ header a:hover{
     width: 90%;
     filter: grayscale(100%);
     transition: 0.6s;
+    padding : 10px;
 }
 
 .proj:hover img{
@@ -126,6 +127,11 @@ header a:hover{
 }
 
 .tab a{
+    border: #fff dashed;
+    padding: 1rem;
+}
+
+.tab a:hover{
     border: #fff solid;
     padding: 1rem;
 }
@@ -133,6 +139,7 @@ header a:hover{
 .info{
     display: flex;
     flex-direction: column;
+    width: 150%;
 }
 
 .info h2{
