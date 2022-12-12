@@ -81,10 +81,11 @@ header a:hover{
 .contenu p{
     text-align: center;
     align-self: center;
-    width: 400px;
+    width: 100%;
     border: #fff dashed 3px;
     font-size:x-large;
     padding: 20px;
+    margin-right: 5rem;
 }
 
 /*****************************************************/
