@@ -8,10 +8,6 @@ h1{
     letter-spacing:0.5ch;
 }
 
-span{
-    color:aqua;
-}
-
 .btn{
     border: solid white 2px;
     padding: 5px;   

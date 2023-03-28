@@ -1,0 +1,21 @@
+.intro{
+    width: 70%;
+    margin: 5vh;
+    padding: 5px;
+    border: dashed white 3px;
+    line-height: 1.5em;
+}
+
+.o{
+    color:orange;
+}
+
+.point1{
+    text-align: end;
+    margin-right: 5vw;
+}
+.point1 p{
+    margin-left: auto;
+}
+
+
