@@ -13,9 +13,14 @@
 .point1{
     text-align: end;
     margin-right: 5vw;
+    margin-top: 5vh;
 }
 .point1 p{
     margin-left: auto;
 }
 
 
+.point2{
+    margin-left: 5vw;
+    margin-top: 5vh;
+}
